@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+:root{
+  /*modo claro*/
+  --corFundo: #ffffff;
+  --corFundo2: aliceblue;
+  --texto: #acacac;
+  --texto2: #262626;
+  --corAzul3: #33E1ED;
+  
+  /*modo escuro*/
+  --corAzul: #1e1e2c;
+  --corAzul2: #2d2d44;
+  
+}
+
+
+body {
+  font-size: 18px;
+  font-family: sans-serif;
+  background-color: var(-corFundo); 
+  color: var(--texto2);
+}
+.container{
+  width: 300px;
+  height: 450px;
+  border: 2px solid var(--corAzul3);
+  background-color: var(--corFundo2);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+.container > p{
+  margin-top: 30px;
+}
+.caixaBtn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.btn{
+  width: 90px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: var(--texto2);
+  border: 2px solid var(--corAzul3);
+  background-color: var(--corFundo2);
+  font-size: 1.2em;
+  font-weight: bold;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.btn:active{
+  translate: 1px 1px;
+}
+
+.dark-mode{
+  width: 40px;
+  height: 40px;
+  color: var(--corAzul);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
