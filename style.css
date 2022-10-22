@@ -76,3 +76,9 @@ body {
   align-items: center;
   cursor: pointer;
 }
+
+@media screen and (max-width: 360px){
+  .container{
+    width: 90vw;
+  }
+}
