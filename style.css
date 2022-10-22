@@ -77,37 +77,4 @@
   }
 
 }
-@media (max-width: 400px){
-  :root{
-    /*modo claro*/
-    --corFundo: #ffffff;
-    --corFundo2: aliceblue;
-    --texto: #acacac;
-    --texto2: #262626;
-    --corAzul3: #33E1ED;
-  
-    /*modo escuro*/
-    --corAzul: #1e1e2c;
-    --corAzul2: #2d2d44;
-  }
-  .container{
-    height: 450px;
-    border: 2px solid var(--corAzul3);
-    background-color: var(--corFundo2);
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
-    margin: 30px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 30px;
-  }
-  
-  .caixaBtn{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
+
